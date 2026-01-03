@@ -1,0 +1,21 @@
+{
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png",
+    "default_title" : "Show that alert!"
+  },
+  "content_scripts":[
+    {
+      "js": ["scripts/report.js"],
+      "matches": ["http://127.0.0.1:5500/Nandini%20Parikh.html","https://radius.mathnasium.*"]
+    }
+  ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "permissions": ["activeTab","scripting"]
+}
