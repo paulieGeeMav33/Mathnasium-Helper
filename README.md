@@ -1,6 +1,5 @@
 # Indtroduction
-
-I hope to make documentation much faster using this extension.
+The purpose of this project is to speed up report generation for Mathnasium.I hope to make documentation much faster using this extension.
 
 
 # Content
@@ -16,7 +15,7 @@ This file controls the actions on the html popup for the extension.
 ### parser.js
 This file parses the content of the webpage and generates the report for it
 
-## HTML
+# HTML
 
-### hello.html
+## hello.html
 Contains the html popup for the extension. Has a button used to generate the report.
