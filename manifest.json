@@ -11,7 +11,7 @@
   "content_scripts":[
     {
       "js": ["scripts/report.js"],
-      "matches": ["http://127.0.0.1:5500/Nandini%20Parikh.html","https://radius.mathnasium.*"]
+      "matches": ["http://127.0.0.1:5500/Nandini%20Parikh.html","https://radius.mathnasium.com/*"]
     }
   ],
   "background": {
