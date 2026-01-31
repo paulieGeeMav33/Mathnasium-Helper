@@ -44,8 +44,13 @@
 
 function getAssignmentName(row) {
     const tds = row.querySelectorAll("td");
+    let first = true;
 
     for (const td of tds) {
+        if (first) {
+            first = false;
+            continue;
+        }
         const div = td.querySelector("div");
         if (!div) continue;
 
