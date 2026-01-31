@@ -12,7 +12,7 @@
     {
       "js": ["scripts/report.js"],
       "matches": [
-        "http://127.0.0.1:5500/extras/Nandini%20Parikh.html","https://radius.mathnasium.com/DWP/*"]
+        "http://127.0.0.1:5500/extras/Nandini%20Parikh.html","https://radius.mathnasium.com/DWP/*","http://127.0.0.1:5500/extras/Mariely%20Mart%C3%ADnez.html"]
     }
   ],
   "background": {
